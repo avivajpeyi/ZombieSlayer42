@@ -129,6 +129,18 @@
      <Compile Include="Assets\Bullet\Disappear.cs" />
      <Compile Include="Assets\Bullet\MoveBullet.cs" />
      <Compile Include="Assets\Bullet\Shoot.cs" />
+     <Compile Include="Assets\My Scripts\Enemy Scripts\Enemy_Animation.cs" />
+     <Compile Include="Assets\My Scripts\Enemy Scripts\Enemy_Attack.cs" />
+     <Compile Include="Assets\My Scripts\Enemy Scripts\Enemy_CollisionField.cs" />
+     <Compile Include="Assets\My Scripts\Enemy Scripts\Enemy_Detection.cs" />
+     <Compile Include="Assets\My Scripts\Enemy Scripts\Enemy_Health.cs" />
+     <Compile Include="Assets\My Scripts\Enemy Scripts\Enemy_NavDestinationReached.cs" />
+     <Compile Include="Assets\My Scripts\Enemy Scripts\Enemy_NavFlee.cs" />
+     <Compile Include="Assets\My Scripts\Enemy Scripts\Enemy_NavPause.cs" />
+     <Compile Include="Assets\My Scripts\Enemy Scripts\Enemy_NavPursue.cs" />
+     <Compile Include="Assets\My Scripts\Enemy Scripts\Enemy_NavWander.cs" />
+     <Compile Include="Assets\My Scripts\Enemy Scripts\Enemy_RagdollActivation.cs" />
+     <Compile Include="Assets\My Scripts\Enemy Scripts\Enemy_TakeDamage.cs" />
      <Compile Include="Assets\My Scripts\GameManager Scripts\GameManager_GameOver.cs" />
      <Compile Include="Assets\My Scripts\GameManager Scripts\GameManager_GoToMenuScene.cs" />
      <Compile Include="Assets\My Scripts\GameManager Scripts\GameManager_PanelInstructions.cs" />
@@ -141,6 +153,7 @@
      <Compile Include="Assets\My Scripts\GameManager Scripts\GameManager_TogglePlayer.cs" />
      <Compile Include="Assets\My Scripts\General Scripts\MainMenu.cs" />
      <Compile Include="Assets\My Scripts\General Scripts\TestGameOver.cs" />
+     <Compile Include="Assets\My Scripts\Master Scripts\Enemy_Master.cs" />
      <Compile Include="Assets\My Scripts\Master Scripts\GameManager_Master.cs" />
      <Compile Include="Assets\My Scripts\Master Scripts\Item_Master.cs" />
      <Compile Include="Assets\My Scripts\Master Scripts\Player_Master.cs" />
