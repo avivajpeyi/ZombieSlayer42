@@ -85,6 +85,7 @@
      <None Include="Assets\Assets\Haunted_Town\Standard Assets\Effects\ImageEffects\Shaders\CreaseApply.shader" />
      <None Include="Assets\Assets\Haunted_Town\Standard Assets\Effects\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
      <None Include="Assets\Assets\Haunted_Town\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\Weapons\MentalDreamsAssets\SoldierSoundsPack\ReadMe!.txt" />
      <None Include="Assets\Assets\Haunted_Town\Standard Assets\Effects\ImageEffects\Shaders\GlobalFog.shader" />
      <None Include="Assets\Assets\Haunted_Town\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
      <None Include="Assets\Assets\Haunted_Town\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Luminance.shader" />

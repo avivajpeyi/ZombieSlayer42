@@ -152,6 +152,7 @@
      <Compile Include="Assets\My Scripts\GameManager Scripts\GameManager_TogglePause.cs" />
      <Compile Include="Assets\My Scripts\GameManager Scripts\GameManager_TogglePlayer.cs" />
      <Compile Include="Assets\My Scripts\General Scripts\MainMenu.cs" />
+     <Compile Include="Assets\My Scripts\General Scripts\SpawnerProximity.cs" />
      <Compile Include="Assets\My Scripts\General Scripts\TestGameOver.cs" />
      <Compile Include="Assets\My Scripts\Item Scripts\Item_Ammo.cs" />
      <Compile Include="Assets\My Scripts\Item Scripts\Item_Animator.cs" />
@@ -224,6 +225,7 @@
      <None Include="Assets\Assets\Haunted_Town\Standard Assets\Effects\ImageEffects\Shaders\CreaseApply.shader" />
      <None Include="Assets\Assets\Haunted_Town\Standard Assets\Effects\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
      <None Include="Assets\Assets\Haunted_Town\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\Weapons\MentalDreamsAssets\SoldierSoundsPack\ReadMe!.txt" />
      <None Include="Assets\Assets\Haunted_Town\Standard Assets\Effects\ImageEffects\Shaders\GlobalFog.shader" />
      <None Include="Assets\Assets\Haunted_Town\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
      <None Include="Assets\Assets\Haunted_Town\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Luminance.shader" />
