@@ -27,7 +27,7 @@ namespace S3
 
 		void Start () 
 		{
-           // StartCoroutine(TestHealthDeduction());
+            StartCoroutine(TestHealthDeduction());
 		}
 
 		void SetInitialReferences()

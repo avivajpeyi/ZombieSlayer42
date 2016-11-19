@@ -6,6 +6,7 @@ namespace S3
 	public class Item_Pickup : MonoBehaviour {
 
         private Item_Master itemMaster;
+		public Transform ParentWhichHold;
 
 		void OnEnable()
 		{
@@ -25,7 +26,7 @@ namespace S3
 
         void CarryOutPickupActions(Transform tParent)
         {
-            transform.SetParent(tParent);
+			transform.SetParent(ParentWhichHold);
             itemMaster.CallEventObjectPickup();
             transform.gameObject.SetActive(false);
         }
