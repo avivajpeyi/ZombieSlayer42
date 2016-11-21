@@ -126,9 +126,10 @@
      <Compile Include="Assets\Assets\Haunted_Town\Standard Assets\Utility\WaypointCircuit.cs" />
      <Compile Include="Assets\Assets\Haunted_Town\Standard Assets\Utility\WaypointProgressTracker.cs" />
      <Compile Include="Assets\Assets\Haunted_Town\_scripts\PreventFromStopMoving.cs" />
-     <Compile Include="Assets\Bullet\Disappear.cs" />
-     <Compile Include="Assets\Bullet\MoveBullet.cs" />
-     <Compile Include="Assets\Bullet\Shoot.cs" />
+     <Compile Include="Assets\Impoted Shit\Bullet\Disappear.cs" />
+     <Compile Include="Assets\Impoted Shit\Bullet\MoveBullet.cs" />
+     <Compile Include="Assets\Impoted Shit\Bullet\Shoot.cs" />
+     <Compile Include="Assets\Impoted Shit\Zombie Guy\Models\AI_Zombie_avi.cs" />
      <Compile Include="Assets\My Scripts\Enemy Scripts\Enemy_Animation.cs" />
      <Compile Include="Assets\My Scripts\Enemy Scripts\Enemy_Attack.cs" />
      <Compile Include="Assets\My Scripts\Enemy Scripts\Enemy_CollisionField.cs" />
@@ -194,7 +195,6 @@
      <Compile Include="Assets\My Scripts\Player Scripts\Player_DetectItem.cs" />
      <Compile Include="Assets\My Scripts\Player Scripts\Player_Health.cs" />
      <Compile Include="Assets\My Scripts\Player Scripts\Player_Inventory.cs" />
-     <Compile Include="Assets\Zombie Guy\Models\AI_Zombie_avi.cs" />
      <None Include="Assets\Assets\Haunted_Town\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Assets\Haunted_Town\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Assets\Haunted_Town\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
@@ -230,9 +230,10 @@
      <None Include="Assets\Assets\Haunted_Town\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader" />
      <None Include="Assets\Assets\Haunted_Town\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderYUV.shader" />
      <None Include="Assets\Assets\Haunted_Town\Standard Assets\Effects\ImageEffects\Shaders\CreaseApply.shader" />
+     <None Include="Assets\Standard Assets\Fonts\OpenSans\License!.txt" />
      <None Include="Assets\Assets\Haunted_Town\Standard Assets\Effects\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
      <None Include="Assets\Assets\Haunted_Town\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
-     <None Include="Assets\Weapons\MentalDreamsAssets\SoldierSoundsPack\ReadMe!.txt" />
+     <None Include="Assets\Impoted Shit\Weapons\MentalDreamsAssets\SoldierSoundsPack\ReadMe!.txt" />
      <None Include="Assets\Assets\Haunted_Town\Standard Assets\Effects\ImageEffects\Shaders\GlobalFog.shader" />
      <None Include="Assets\Assets\Haunted_Town\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
      <None Include="Assets\Assets\Haunted_Town\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Luminance.shader" />
