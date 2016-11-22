@@ -1,18 +1,21 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Assets/Haunted_Town/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/My Scripts/Enemy Scripts/Enemy_Animation.cs">
     <Files>
+      <File FileName="Assets/My Scripts/Enemy Scripts/Enemy_Sounds.cs" Line="55" Column="27" />
       <File FileName="Assets/My Scripts/Gun Scripts/Gun_Sounds.cs" Line="1" Column="1" />
-      <File FileName="Assets/My Scripts/Enemy Scripts/Enemy_Sounds.cs" Line="9" Column="1" />
       <File FileName="Assets/My Scripts/Enemy Scripts/Enemy_RagdollActivation.cs" Line="1" Column="1" />
-      <File FileName="Assets/My Scripts/Master Scripts/Enemy_Master.cs" Line="1" Column="1" />
+      <File FileName="Assets/My Scripts/Master Scripts/Enemy_Master.cs" Line="14" Column="59" />
       <File FileName="Assets/My Scripts/Enemy Scripts/Enemy_Health.cs" Line="1" Column="1" />
       <File FileName="Assets/My Scripts/Enemy Scripts/Enemy_TakeDamage.cs" Line="1" Column="1" />
-      <File FileName="Assets/My Scripts/Enemy Scripts/Enemy_Attack.cs" Line="1" Column="1" />
+      <File FileName="Assets/My Scripts/Enemy Scripts/Enemy_Attack.cs" Line="63" Column="34" />
       <File FileName="Assets/My Scripts/Enemy Scripts/Enemy_NavWander.cs" Line="1" Column="1" />
       <File FileName="Assets/My Scripts/Enemy Scripts/Enemy_Detection.cs" Line="1" Column="1" />
       <File FileName="Assets/My Scripts/Enemy Scripts/Enemy_NavDestinationReached.cs" Line="1" Column="1" />
       <File FileName="Assets/Assets/Haunted_Town/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs" Line="74" Column="6" />
+      <File FileName="Assets/My Scripts/Enemy Scripts/Enemy_NavPursue.cs" Line="1" Column="1" />
+      <File FileName="Assets/My Scripts/Enemy Scripts/Enemy_NavFlee.cs" Line="38" Column="10" />
+      <File FileName="Assets/My Scripts/Enemy Scripts/Enemy_Animation.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

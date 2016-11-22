@@ -22,26 +22,33 @@ public class Enemy_Sounds : MonoBehaviour {
 	void OnEnable()
 	{
 		SetInitialReferences();
+//		if (groanRandomNumber == Random.Range (0, 100))// && SoundIsPlayuing == false)
+		enemyMaster.EventEnemyWalking += PlayRandomGroanSound; 
 	}
 	
+
+		void OnDisable()
+		{
+			enemyMaster.EventEnemyWalking -= PlayRandomGroanSound; 
+		}
+
 
 			void SetInitialReferences()
 			{
 				enemyMaster = GetComponent<Enemy_Master>();
 				myTransform = transform;
-				groanRandomNumber = Random.Range (0, 100); 
+				groanRandomNumber = Random.Range (0, 10); 
 			}
 	
-
-		void Update () //MIGHT MAKE THE GAME SLOW!!! 
-		{
-
-
-			if (groanRandomNumber == Random.Range (0, 100)) // if we get the same random number as we ehad set in the start, we will play the noise
-				PlayRandomGroanSound (); 
-
-		}
-
+//
+//		void Update () //MIGHT MAKE THE GAME SLOW!!! 
+//		{
+//
+//			if (groanRandomNumber == Random.Range (0, 100)) // if we get the same random number as we ehad set in the start, we will play the noise
+//				PlayRandomGroanSound (); 
+//
+//		}
+//
 
 
 
@@ -67,10 +74,10 @@ public class Enemy_Sounds : MonoBehaviour {
 
 		public void PlayRandomGroanSound() //Called by enemy master
 		{
-			// WE COULD ACTUALLY USE THE ARRAY!!!!
 
 
-			if (randomGroanSound.Length > 0)
+
+			if (groanRandomNumber == Random.Range (0, 10) &&   randomGroanSound.Length > 0)
 			{
 				int index = Random.Range(0, randomGroanSound.Length);
 				AudioSource.PlayClipAtPoint(randomGroanSound[index], myTransform.position, randomGroanVolume);
