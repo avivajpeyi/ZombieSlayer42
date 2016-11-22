@@ -71,7 +71,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
 			if (startFov == -1.0) {
 				startFov = Camera.main.fieldOfView;
 			}
-			float sensitivity = 1;
+			//float sensitivity = 1;
 			float minFov = startFov;
 			float maxFov = 15;
 			float fov = Camera.main.fieldOfView;
